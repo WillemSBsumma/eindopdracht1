@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.indexCommando {
+    @apply text-blue-500 underline hover:text-blue-700 mr-5 cursor-pointer
+}
+.indexHeader {
+    @apply font-bold text-black mr-2
+}
+.indexRegelElement {
+    @apply text-sky-100 mr-2
+}
+.btnVeiligeActie {
+    @apply bg-green-500 text-white rounded-lg px-10 py-2
+}
+.btnGevaarlijkeActie {
+    @apply bg-red-600 text-white rounded-lg px-10 py-2
+}
+.btnNeutraleActie {
+    @apply bg-blue-600 text-white rounded-lg px-10 py-2
+}
+.menuItem {
+    @apply text-gray-400
+}
